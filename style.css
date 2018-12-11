@@ -1,0 +1,163 @@
+/* CSS files add styling rules to your content */
+
+body {
+  
+  font-family: 'Roboto Mono', monospace;
+  text-align:center;
+  color:gray;
+  background-color:black;
+  height: 100%;
+}
+
+
+.video{
+  position:absolute;
+  width:100%; 
+  height:auto;
+  z-index:-1;
+  top:0;left:0; bottom:0;right:0;
+  
+}
+
+.firstpage {
+  font-family:Roboto Mono;
+  width: 60%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#city1 {
+  opacity: 0;
+  transition: 3s opacity;
+  text-align: center;
+  font-size:22px;
+}
+
+
+
+
+.myname{
+  
+  font-family:Roboto;
+  color:#373737;
+  z-index:14;
+  position: fixed;
+  bottom: 20px;
+  margin: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.description{
+  margin-top:25%;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.mycity {
+  color:gray;
+  font-size:18px;
+  opacity:1;
+}
+
+
+
+.myfact{
+  color:white;
+  font-size:22px;
+}
+
+.start{
+  
+    background-color: black;
+    border: white;
+    color: #FF6565;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top:2%;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:1%;
+    padding-bottom:1%;
+    opacity:0.8;
+   
+}
+
+.title{
+  line-height:32px;
+  text-align:center;
+  color:white;
+  z-index:14;
+  background-color: black;
+  opacity:0.8;
+  
+  
+  
+  
+  
+}
+
+.introduction{
+  line-height:32px;
+  text-align:center;
+  z-index:14;
+  background-color: black;
+  opacity:0.8; 
+}
+
+
+
+.button {
+    background-color: gray;
+    border: none;
+    padding: 6px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px; 
+    
+}
+
+.active {
+  background-color: #848282;
+  
+}
+
+.passive {
+  background-color: #222222;
+}
+
+.carousel{
+  width:100%;
+  height:7%;
+  position:fixed;
+  background-color:black;
+  margin-top:20%;
+  text-align:center;
+}
+
+.start:hover{
+  background-color:black;
+  color:lime;
+}
+
+.back{
+  text-align:center;
+  color:#222222;
+  text-decoration:none;
+  font-family: Roboto;
+  height:7%;
+  width:100%;
+  bottom:0;
+  position:fixed;
+  left:0;
+  
+}
