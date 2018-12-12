@@ -12,8 +12,8 @@ body {
 
 .video{
   position:absolute;
-  width:100%; 
-  height:auto;
+  width:100vw; 
+  height:100vh;
   z-index:-1;
   top:0;left:0; bottom:0;right:0;
   
@@ -21,7 +21,7 @@ body {
 
 .firstpage {
   font-family:Roboto Mono;
-  width: 60%;
+  width: 40%;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -49,7 +49,7 @@ body {
   left: 0;
   right: 0;
   text-align: center;
-  font-size: 5vw;
+  font-size: 14px;
 }
 
 .description{
@@ -146,7 +146,7 @@ h1 {
 
 .start:hover{
   background-color:black;
-  color:lime;
+  color:purple;
 }
 
 .back{
